@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+#span-purple {
+    color: rgb(187, 25, 187) !important;
+    text-shadow: 1px 1px 2px rgb(80, 79, 79);
+    font-weight: bold;
+}
+
+#footer-span {
+    color: blueviolet !important;
+}
+
+.myclock {
+    color: blueviolet !important;
+}
+
+.mybutton {
+    background-color: rgb(86, 56, 252);
+    border-color: rgb(86, 56, 252);
+    color: white;
+    border: 2px solid #555555;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.mybutton a {
+    color: rgb(86, 56, 252);
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+}
+
+.step-title {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.step-line {
+    flex-grow: 1;
+    border-bottom: 1px solid #dee2e6;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+#span-purple {
+    color: rgb(187, 25, 187) !important;
+    text-shadow: 1px 1px 2px rgb(80, 79, 79);
+    font-weight: bold;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-span {
+    color: blueviolet !important;
+}
+/* .bg-body-tertiary {
+    background-color: gainsboro !important;
+} */
+
+.mybutton {
+    width: 100%;
+    color: white;
+    border: 2px solid #555555;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
